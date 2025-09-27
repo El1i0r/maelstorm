@@ -1,0 +1,4 @@
+(executable
+ (public_name leva_01)
+ (name main)
+ (libraries leva_01))

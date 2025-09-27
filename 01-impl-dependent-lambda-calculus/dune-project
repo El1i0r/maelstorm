@@ -1,0 +1,24 @@
+(lang dune 3.18)
+
+(name leva_01)
+
+(generate_opam_files true)
+
+(source
+ (github wyrhta/maelstorm))
+
+(authors "Affan Ahmad <affan.ahmad@example.com>")
+
+(maintainers "Affan Ahmad <affan.ahmad@example.com>")
+
+(license MIT)
+
+(documentation https://github.com/wyrhta/maelstorm)
+
+(package
+ (name leva_01)
+ (synopsis "An evaluator for the untyped lambda-calculus.")
+ (description "An implementation of an evaluator for the untyped lambda-calculus, with closures and environments.")
+ (depends ocaml alcotest)
+ (tags
+  ("lambda-calculus" "interpreter" "ocaml")))
